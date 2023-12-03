@@ -335,7 +335,7 @@ const countries = {
     }
   
     const getLocation = async () => {
-      const reponse = await fetch('https://ipinfo.io?token=7c2ac2246173ec')
+      const reponse = await fetch('https://ipinfo.io?token=19c5067ad5bfb3')
       const result = await reponse.json()
       setLocationPeriod(result)
       return result
